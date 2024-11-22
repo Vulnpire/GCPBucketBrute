@@ -33,7 +33,7 @@ def generate_bucket_permutations(keyword):
         '{keyword}{permutation}',
         '{permutation}{keyword}'
     ]
-    with open('./permutations.txt', 'r') as f:
+    with open('/home/op/lists/permutations.txt', 'r') as f:
         permutations = f.readlines()
         buckets = []
         for perm in permutations:
